@@ -1,0 +1,220 @@
+/* General Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    background-color: #fafafa;
+    color: #333;
+    line-height: 1.6;
+}
+
+/* Full Page Hero Section */
+header.hero {
+    background: linear-gradient(to right, #00d9f7, #00025e);
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+    color: white;
+}
+/* General reset for margins and padding */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Styling the header */
+header {
+    background-color: #f4f4f4; /* Customize the header background */
+    padding: 20px;
+    text-align: center; /* Centers the logo horizontally */
+}
+
+/* Styling the logo */
+.logo-container {
+    display: inline-block;
+}
+
+.logo {
+    max-width: 150px; /* Adjust this value to control logo size */
+    height: auto;
+    transition: transform 0.3s ease; /* Smooth hover effect */
+}
+
+.logo:hover {
+    transform: scale(1.1); /* Slight zoom on hover */
+}
+
+
+button {
+    padding: 15px 20px;
+    border: none;
+    background: #6a11cb;
+    color: white;
+    font-weight: bold;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #2575fc;
+}
+
+header h1 {
+    font-size: 4rem;
+    margin-bottom: 1rem;
+    animation: fadeIn 1s ease-in-out;
+}
+
+header p {
+    font-size: 1.8rem;
+    margin-bottom: 2rem;
+}
+
+nav ul {
+    display: flex;
+    gap: 15px;
+    list-style: none;
+}
+
+nav ul li a {
+    font-size: 1.2rem;
+    color: #fff;
+    text-transform: uppercase;
+    padding: 10px 20px;
+    text-decoration: none;
+    background-color: rgba(255, 255, 255, 0.1);
+    border-radius: 20px;
+    transition: background-color 0.3s ease;
+}
+
+nav ul li a:hover {
+    background-color: rgba(255, 255, 255, 0.3);
+}
+
+/* Fade-In Animation */
+@keyframes fadeIn {
+    0% {
+        opacity: 0;
+        transform: translateY(-10px);
+    }
+    100% {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+/* Featured Stories Section */
+.container {
+    padding: 60px 20px;
+}
+
+#featured h2 {
+    text-align: center;
+    font-size: 2.5rem;
+    color: #444;
+    margin-bottom: 40px;
+}
+
+.story-card {
+    background: #fff;
+    padding: 20px;
+    margin: 20px auto;
+    border-radius: 12px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+    max-width: 400px;
+    transition: transform 0.3s ease;
+}
+
+.story-card:hover {
+    transform: translateY(-10px);
+}
+
+.story-card img {
+    width: 100%;
+    border-radius: 12px;
+    transition: transform 0.3s ease;
+}
+
+.story-card img:hover {
+    transform: scale(1.05);
+}
+
+.story-card h1, .story-card h3 {
+    font-size: 1.8rem;
+    margin-top: 15px;
+    color: #333;
+}
+
+.story-card p {
+    font-size: 1.1rem;
+    color: #555;
+    margin-top: 10px;
+}
+
+/* Chatbox Section */
+.chatbox-section {
+    text-align: center;
+    margin-top: 50px;
+}
+
+#chatbox {
+    width: 100%;
+    max-width: 600px;
+    height: 300px;
+    border: 2px solid #ddd;
+    margin: 0 auto;
+    padding: 15px;
+    overflow-y: auto;
+    background-color: #f9f9f9;
+    border-radius: 8px;
+}
+
+#chat-input {
+    width: 80%;
+    padding: 12px;
+    margin-top: 10px;
+    border: 1px solid #ddd;
+    border-radius: 25px;
+    outline: none;
+    transition: box-shadow 0.3s ease;
+}
+
+#chat-input:focus {
+    box-shadow: 0 0 10px rgba(0, 123, 255, 0.3);
+}
+
+button {
+    padding: 12px 25px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 25px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    margin-left: 10px;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+/* Footer */
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 15px;
+}
+
+footer p {
+    margin: 0;
+}
